@@ -29,15 +29,6 @@
   <br/><br/>
 </p>
 
-<p align="center">
-  <a href="https://www.cerbos.dev/?utm_campaign=brand_cerbos&utm_source=awesome_iam&utm_medium=github&utm_content=&utm_term=">
-    <img width="600" src="https://raw.githubusercontent.com/kdeldycke/awesome-iam/main/assets/cerbos-banner.svg">
-    <br/>
-    为您的应用构建可扩展的，细粒度的授权。 <strong>尝试Cerbos </strong>，是用于授权，测试和部署访问策略的授权管理系统。
-  </a>
-  <br/><br/>
-</p>
-
 <!-- Comment this sponsorship call-to-action if there is a sponsor logo to increase its impact. -->
 
 <!--
