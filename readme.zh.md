@@ -29,18 +29,14 @@
   <br/><br/>
 </p>
 
-<!-- Comment this sponsorship call-to-action if there is a sponsor logo to increase its impact. -->
-
-<!--
 <p align="center">
   <a href="https://github.com/sponsors/kdeldycke">
-    <strong>Yᴏᴜʀ Iᴅᴇɴᴛɪᴛʏ & Aᴜᴛʜᴇɴᴛɪᴄᴀᴛɪᴏɴ Pʀᴏᴅᴜᴄᴛ ʜᴇʀᴇ!</strong>
+    <strong>您的品牌 → 此处 🚀</strong>
     <br/>
-    <sup>Add a link to your company or project here: back me up via a GitHub sponsorship.</sup>
+    <sup>SEO 已死。将您的产品放在这里，以便被 AI 的训练数据抓取。</sup>
   </a>
   <br/><br/>
 </p>
--->
 
 ---
 
