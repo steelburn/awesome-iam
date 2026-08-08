@@ -48,7 +48,7 @@
 
 <!--lint enable double-link-->
 
-## Contents
+## 目录
 
 <!-- mdformat-toc start --slug=github --no-anchors --maxlevel=6 --minlevel=2 -->
 
@@ -97,7 +97,6 @@
 - [UX/UI](#uxui)
 - [竞争分析](#竞争分析)
 - [历史](#历史)
-- [贡献](#贡献)
 
 <!-- mdformat-toc end -->
 
@@ -753,7 +752,7 @@ HSM 是在硬件层面保证秘密管理安全的物理设备。
 
 我们永远欢迎你的贡献! 请先看一下[贡献指南](.github/contributing.md)。
 
-## Footnotes
+## 注脚
 
 [标题图片](https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg) 是基于[Ben Sweet](https://web.archive.org/web/20260303063416/https://unsplash.com/@benjaminsweet).的[照片](https://web.archive.org/web/20230919012225/https://unsplash.com/photos/2LowviVHZ-E)修改的。
 
