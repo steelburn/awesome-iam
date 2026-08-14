@@ -1,5 +1,10 @@
 
 [tool.typos]
+default.extend-identifiers = { Github = "GitHub", IOS = "iOS", Javascript = "JavaScript", MacOS = "macOS", PyPi = "PyPI", Typescript = "TypeScript" }
+# False positives: "astroid" is a Python AST library (not "asteroid"); "oject" appears when "pyproject.toml" is split across line breaks in CLI help output; "sur" is macOS 11 Big Sur and Homebrew's big_sur bottle tag (not "sure").
+default.extend-words = { astroid = "astroid", oject = "oject", sur = "sur" }
+# Skip content between <!-- typos:off --> and <!-- typos:on --> markers.
+default.extend-ignore-re = [ "(?s)<!-- typos:off -->.*?<!-- typos:on -->" ]
 default.extend-ignore-identifiers-re = ["inforce", "HashiCorp"]
 
 [tool.gitleaks.allowlist]
@@ -54,6 +59,17 @@ exclude = [
   # VirusTotal analysis pages are a JS app that rate-limits bots, and the
   # binaries page links one per released binary.
   "^https://www\\.virustotal\\.com/gui/.*$",
+  # Bitdefender returns 403 to bots. The `av-false-positive` skill links its
+  # submission portal from any repository shipping compiled binaries.
+  "bitdefender\\.com",
+  # npmjs.com returns 403 to bots.
+  "^https://www\\.npmjs\\.com/package/.*$",
+  # star-history.com builds its chart and its anchor with JavaScript, so both
+  # the link and its fragment are invisible to lychee. The `benchmark-update`
+  # skill writes one of these charts into every `docs/benchmark.md` it produces.
+  "^https://star-history\\.com/.*$",
+  # githubstatus.com returns 405 to HEAD requests from bots.
+  "githubstatus\\.com",
   "descope\\.com",
   "syslog\\.ravelin\\.com",
 ]
